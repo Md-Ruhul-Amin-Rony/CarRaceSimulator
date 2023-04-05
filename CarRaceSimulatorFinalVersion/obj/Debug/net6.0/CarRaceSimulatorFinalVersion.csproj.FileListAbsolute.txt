@@ -1,0 +1,5 @@
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.csproj.AssemblyReference.cache
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.AssemblyInfoInputs.cache
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.AssemblyInfo.cs
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.csproj.CoreCompileInputs.cache
