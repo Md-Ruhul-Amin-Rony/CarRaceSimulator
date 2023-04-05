@@ -1,9 +1,7 @@
 # CarRaceSimulator
 # Instructions
-I will build a program that simulates a car race where two (or more) cars race against each other. There are no graphics, only in the console, but the cars will run in different threads and really compete against each other.
 
-
-I build a program that simulates a car race where two (or more) cars race against each other. There are no graphics, only in the console, but the cars will run in different threads and really compete against each other.
+I have build a program that simulates a car race where two (or more) cars race against each other. There are no graphics, only in the console, but the cars will run in different threads and really compete against each other.
 
 ## Requirement that i have fulfilled: 
 
