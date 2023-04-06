@@ -3,3 +3,13 @@ C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarR
 C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.AssemblyInfoInputs.cache
 C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.AssemblyInfo.cs
 C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.csproj.CoreCompileInputs.cache
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\bin\Debug\net6.0\CarRaceSimulatorFinalVersion.exe
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\bin\Debug\net6.0\CarRaceSimulatorFinalVersion.deps.json
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\bin\Debug\net6.0\CarRaceSimulatorFinalVersion.runtimeconfig.json
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\bin\Debug\net6.0\CarRaceSimulatorFinalVersion.dll
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\bin\Debug\net6.0\CarRaceSimulatorFinalVersion.pdb
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.dll
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\refint\CarRaceSimulatorFinalVersion.dll
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.pdb
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\CarRaceSimulatorFinalVersion.genruntimeconfig.cache
+C:\Users\adiar\OneDrive\Desktop\iths\ithsclass\CarRaceSimulatorFinalVersion\CarRaceSimulatorFinalVersion\obj\Debug\net6.0\ref\CarRaceSimulatorFinalVersion.dll

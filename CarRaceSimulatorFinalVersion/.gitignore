@@ -1,1 +1,14 @@
-﻿
+﻿# ignore build artifacts
+bin/
+obj/
+
+# ignore package lock files
+package-lock.json
+yarn.lock
+
+# ignore IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
