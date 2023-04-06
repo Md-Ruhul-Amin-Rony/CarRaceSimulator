@@ -30,15 +30,21 @@ while (true)
         }
     }
     int finishedCount = 0;
+    DateTime earliestFinishTime = DateTime.MaxValue;
     Car winner = null;
     foreach (Car car in cars)
     {
         if (car.Finished)
         {
             finishedCount++;
-            if (winner==null || car.Distance>winner.Distance)
+            if (car.FinishTime < earliestFinishTime)
             {
+               // winner = cars.OrderByDescending(c => c.Distance).FirstOrDefault();
                 winner = car;
+                earliestFinishTime = car.FinishTime;
+                //Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                //Console.WriteLine($"Winner is {winner.Name}");
+                //Console.ResetColor();
 
             }
         }
@@ -46,7 +52,9 @@ while (true)
     }
     if (finishedCount==cars.Count)
     {
-        Console.WriteLine($"All cars have finished the race. {winner.Name} is the winner with a distance of {winner.Distance} meters");
+        Console.WriteLine($"All cars have finished the race. ");
+        Console.WriteLine($"Car {winner.Name} finished first and is the winner!");
+        Console.WriteLine("Please press any key to exit.");
 
         break;
     }

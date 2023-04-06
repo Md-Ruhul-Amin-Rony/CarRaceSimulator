@@ -13,9 +13,10 @@ namespace CarRaceSimulatorFinalVersion.Models
         public int Distance { get; set; }
         public int Speed { get; set; } = 120; //km/h
                                               // public Random random { get; set; }
-        public bool Finished { get; set; }
+        public bool Finished { get; set; }=false;
         //public DateTime LastEventTime { get; set; }
         public Thread thread { get; set; }
+        public DateTime FinishTime { get; set; }
 
         public Car(string name)
         {
@@ -35,8 +36,8 @@ namespace CarRaceSimulatorFinalVersion.Models
             Console.WriteLine("Welcome to the Car Racing Competition::-");
             Console.ResetColor(); // Reset console colors to default
 
-            Console.WriteLine($"\n\n{Name} starts the race!");
-            Console.WriteLine("\n\n" + new string('-', 60));
+           // Console.WriteLine($"\n\n{Name} starts the race!");
+            //Console.WriteLine("\n\n" + new string('-', 60));
             Console.WriteLine($"\n\n{" ",28}\u001b[1m\u001b[36m {Name} \u001b[0m\u001b[1mstarts the race! \u001b[0m\n\n");
             thread.Start();
 
@@ -125,6 +126,14 @@ namespace CarRaceSimulatorFinalVersion.Models
                     distanceTravelled = Speed * 1000 / 3600; // convert from km/h to m/s
                     Distance += distanceTravelled;
                     currentSpeed = Speed;
+
+
+                    if (Distance >= 10000)
+                    {
+                        Distance = 10000    ;
+                        Finished = true;
+                        FinishTime = DateTime.Now;
+                    }
                 }
                 Console.WriteLine($"Car {Name} is at {Distance} meters, speed is {currentSpeed} km/h");
                 if (Distance >= 10000)
@@ -132,6 +141,9 @@ namespace CarRaceSimulatorFinalVersion.Models
                     Finished = true;
                     Console.ForegroundColor = ConsoleColor.DarkCyan;
                     Console.WriteLine($"WOW!!! {Name} has finished the Race");
+                    Console.ResetColor();
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine("Please press 'Enter' to see the Winner!!");
                     Console.ResetColor();
                     return;
 
@@ -189,7 +201,7 @@ namespace CarRaceSimulatorFinalVersion.Models
                     eventTimer = 0;
 
                 }
-                Thread.Sleep(1000); 
+                Thread.Sleep(100); 
 
 
                 //int distanceTravelled = Speed * 1000 / 3600; // convert from km/h to m/s
