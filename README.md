@@ -24,10 +24,10 @@ I have build a program that simulates a car race where two (or more) cars race a
 [ ] The events are listed below and there you see what can happen, how likely it is to happen and what is happening. You can invent more or other events if you want.
 
 ## Event	Probability	Effect
-Out of gas	1/50	Needs to refuel, stops 30 seconds
-Puncture	2/50	Needs tire change, stops 20 seconds
-Bird on the windshield	5/50	Need to wash windshield, stops 10 seconds
-Engine failure	10/50	The speed of the car is reduced by 1km/h
+#### Out of gas	1/50	Needs to refuel, stops 30 seconds
+#### Puncture	2/50	Needs tire change, stops 20 seconds
+#### Bird on the windshield	5/50	Need to wash windshield, stops 10 seconds
+#### Engine failure	10/50	The speed of the car is reduced by 1km/h
 [ ] Every 30 seconds, an event must be randomly generated for each car. Only one event can occur at a time.
 
 # 🏎️ Run the race!
