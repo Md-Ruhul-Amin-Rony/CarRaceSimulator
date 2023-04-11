@@ -1,11 +1,15 @@
 ﻿using CarRaceSimulatorFinalVersion.Models;
 
 List<Car> cars = new List<Car>();
+Console.ForegroundColor= ConsoleColor.Green;
 Console.WriteLine("Select how many cars do you want to run the race:");
+Console.ResetColor();
 int numCars = int.Parse(Console.ReadLine());
 for (int i = 0; i < numCars; i++)
 {
+    Console.ForegroundColor= ConsoleColor.Green;    
     Console.WriteLine($"Select the name of the car {i+1} : ");
+    Console.ResetColor();
     string name = Console.ReadLine();
 
     cars.Add(new Car(name));
@@ -39,13 +43,10 @@ while (true)
             finishedCount++;
             if (car.FinishTime < earliestFinishTime)
             {
-               // winner = cars.OrderByDescending(c => c.Distance).FirstOrDefault();
+              
                 winner = car;
                 earliestFinishTime = car.FinishTime;
-                //Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                //Console.WriteLine($"Winner is {winner.Name}");
-                //Console.ResetColor();
-
+              
             }
         }
 
@@ -53,7 +54,9 @@ while (true)
     if (finishedCount==cars.Count)
     {
         Console.WriteLine($"All cars have finished the race. ");
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine($"Car {winner.Name} finished first and is the winner!");
+        Console.ResetColor();
         Console.WriteLine("Please press any key to exit.");
 
         break;
