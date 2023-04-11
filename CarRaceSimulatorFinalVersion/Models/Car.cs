@@ -115,7 +115,7 @@ namespace CarRaceSimulatorFinalVersion.Models
                             case 6:
                             case 7:
                             case 8:
-                                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine($"{Name} has a bird on the WindSheild & washing stops for 10 seconds");
                                 Console.ResetColor();
                                 Thread.Sleep(10000);
