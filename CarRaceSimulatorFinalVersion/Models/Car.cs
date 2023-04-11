@@ -82,7 +82,7 @@ namespace CarRaceSimulatorFinalVersion.Models
                 incidentTimer++;
                 if (incidentTimer >= 30) // to check if the incidentTimer has exceed 30 seconds
                 {
-                    int incidentProbability = random.Next(1, 51);// from 1 to 10 corresponds to a specific incident that the car may encounter during the race.
+                    int incidentProbability = random.Next(1, 51);// from 1 to 50 corresponds to a specific incident that the car may encounter during the race.
                     lock (this)// to ensure that only one thread can execute the incident code at a time.
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
